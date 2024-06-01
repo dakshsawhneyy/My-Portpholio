@@ -11,7 +11,7 @@ Explore the cool stuff I've created! You'll find a variety of projects here. Eac
 Learn a bit about who I am, what I love doing, and why I'm passionate about programming. I'm more than just a Frontend developer — <I'm a Football player, Gamer(who loves to play story games) and ofcourse a true and Caring Friend😁".
 
 ### 📞 Let's Connect
-Got questions, feedback, or just want to chat? I'm all ears! You can reach out to me via email at  darkstardaksh@email.com  or connect with me on <br>instagram platform [@dakshsawhneyy]<br/> I'm always up for a good conversation!
+Got questions, feedback, or just want to chat? I'm all ears!<hr> You can reach out to me via email at  darkstardaksh@gmail.com  or connect with me on <br>instagram platform [@dakshsawhneyy]<br/><hr/> I'm always up for a good conversation!
 
 ## How It Works
 
