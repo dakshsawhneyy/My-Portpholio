@@ -67,15 +67,19 @@ body{
 }
 .centre{
     /* margin-left: 90px; */
-    padding: 0 6%;
+    padding: 6% 6%;
     max-width: 900px;
 }
-.centre h3{
+.centre h1{
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+.centre h2{
     
     color: transparent;
-    font-weight: 700;
-    font-size: 3.2rem;
-    -webkit-text-stroke: .7px #002bff ;
+    -webkit-text-stroke: .3px #002bff ;
+    -webkit-text-fill-color: white;
+    letter-spacing: 4px;
 }
 
 .buttons{
@@ -166,7 +170,7 @@ body{
 
 p{
     font-size: 18px;
-    margin-top: 40px;
+    margin-top: 30px;
     color: white;
 
 }
