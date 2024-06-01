@@ -17,20 +17,72 @@ body{
     align-items: center;
     padding: 0 6%;
     color: white;
+    justify-content: space-between;
 
+}
+.voltage-button button{
+    padding: 10px 15px;
+    --glow-color: rgb(0, 171, 240);
+ --glow-spread-color: rgba(0, 171, 240, 0.5);
+ --enhanced-glow-color: rgb(0, 43, 255);
+ --btn-color: rgb(77, 61, 136);
+ border: .25em solid var(--glow-color);
+ padding: .5em 2em;
+ color: var(--glow-color);
+ font-size: 15px;
+ font-weight: bold;
+ background-color: var(--btn-color);
+ border-radius: 1em;
+ outline: none;
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ position: relative;
+ transition: all 0.3s;
+ letter-spacing: 3px;
+}
+
+.voltage-button button::after {
+ pointer-events: none;
+ content: "";
+ position: absolute;
+ top: 120%;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background-color: var(--glow-spread-color);
+ filter: blur(2em);
+ opacity: .7;
+ transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.voltage-button button:hover {
+ color: var(--btn-color);
+ background-color: var(--glow-color);
+ box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+}
+
+.voltage-button button:active {
+ box-shadow: 0 0 0.6em .25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 .5em .25em var(--glow-color);
 }
 
 .topbox ul{
     list-style-type: none;
     display: flex;
-    margin-left: 570px;
+    justify-content: space-between;
+    /* margin-left: 100px; */
     color: white;
-
+    width: 560px;
 }
 .topbox ul li a{
     text-decoration: none;
     font-size: 20px;
-    margin-left: 40px;
+    /* margin-left: 30px; */
     font-weight: 580;
     transition: 0.4s ;
     font-size: 22px;
@@ -59,7 +111,6 @@ body{
     transform:scaleX(1) ;
 }
 
-
 .yoyo{
     height: 570px;
     display: flex;
@@ -69,10 +120,12 @@ body{
     /* margin-left: 90px; */
     padding: 6% 6%;
     max-width: 900px;
+    margin-top: 20px;
+    
 }
 .centre h1{
     letter-spacing: 2px;
-    margin-top: 30px;
+    
 }
 .centre h2{
     
