@@ -2,17 +2,18 @@
     margin: 0px;
     border: 0px;
     font-family: 'Poppins';
-    
-    
+    scroll-behavior: smooth;
 }
 body{
     background-image:url('Picsart_24-05-18_23-16-22-366.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
+header{
+    margin-top: 10px;
+}
 .topbox{
-    height: 50px;
-    margin-top: 15px;
+    height: 70px;
     display: flex;
     align-items: center;
     padding: 0 6%;
@@ -82,7 +83,6 @@ body{
 .topbox ul li a{
     text-decoration: none;
     font-size: 20px;
-    /* margin-left: 30px; */
     font-weight: 580;
     transition: 0.4s ;
     font-size: 22px;
@@ -120,25 +120,24 @@ body{
     /* margin-left: 90px; */
     padding: 6% 6%;
     max-width: 900px;
-    margin-top: 20px;
+    margin-top: 40px;
     
 }
 .centre h1{
     letter-spacing: 2px;
     
 }
-.centre h2{
-    
+.centre h3{
+    font-size: 2.1rem;
+    font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .3px #002bff ;
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.5px #00abf0 ;
+    /* -webkit-text-fill-color: #00abf0; */
     letter-spacing: 4px;
 }
 
 .buttons{
     padding: 10px 0px;
-    /* width: 700px;
-    height: 150px;  */
     display: flex;
     align-items: center;
     gap: 60px;
